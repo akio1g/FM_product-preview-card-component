@@ -1,0 +1,85 @@
+html, body {
+    background-color: $cream;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    main {
+        background-color: $white;
+        border-radius: 10px;
+        margin: 10px;
+        max-width: 686px;
+
+        .perfume {
+            img {
+                max-width: 100%;
+            }
+            #imgMobile {
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            
+            #imgDesktop {
+                display: none;
+            }
+
+            .perfume-content {
+                padding: 20px;
+
+                h1 {
+                    font-family: 'Fraunces';
+                    font-weight: 700;
+                    margin-top: 10px;
+                }
+
+                .type, p {
+                    color:$darkgrayishblue;
+                }
+                
+                .type {
+                    letter-spacing: 4px;
+                }
+
+                p {
+                    line-height: 150%;
+                    text-align: left;
+                }
+
+                .perfume-preco {
+                    display: flex;
+                    align-items: center;
+
+                    #atual {
+                        font-family: 'Fraunces';
+                        font-weight: 700;
+                        color: hsl(158, 36%, 37%);
+                        font-size: 30px;
+                    }
+
+                    #antigo {
+                        color:hsl(228, 12%, 48%);
+                        text-decoration:line-through;
+                        margin-left: 20px;
+                    }
+                }
+
+                button {
+                    width: 100%;
+                    height: 50px;
+                    border-radius: 10px;
+                    background-color: hsl(158, 36%, 37%);
+                    border: none;
+                    color: white;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}

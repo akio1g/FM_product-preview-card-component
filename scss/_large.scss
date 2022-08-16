@@ -1,0 +1,46 @@
+body {
+    main {
+        width: 50%;
+        height: 50%;
+    
+        
+        .perfume {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: stretch;
+            #imgMobile {
+                display: none;
+            }
+            h1 , p {
+                margin: 0;
+            }
+    
+            #imgDesktop {
+                display: block;
+                width: 50%;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+            }
+    
+            .perfume-content {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                box-sizing: border-box;
+                justify-content: space-around;
+                
+                button {
+                    justify-self: stretch;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
